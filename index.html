@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+<title> Trin's Website</title>
+<style>
+  body {
+      background: rgb(128, 23, 5);
+      color: rgb(45, 45, 45);
+      padding: 10px;
+      font-family: arial;
+  }
+  #all-contents {
+    max-width: 800px;
+      margin: auto;
+  }
+
+  /* navigation menu */
+  nav {
+      background: rgb(4, 53, 41);
+     margin: 0 auto;
+     margin-bottom:20px;
+      display: flex;
+      padding: 10px;
+  }
+  h1 {
+      display: flex;
+      align-items: center;
+      color: rgb(77, 175, 64);
+      flex: 1;
+      margin: 0;
+  }
+  #nav-ul {
+      list-style-image: none;
+  }
+  .nav-li {
+      display: inline-block;
+      padding: 0 10px;
+  }
+  a {
+      text-decoration: none;
+      color: rgb(180, 67, 67);
+  }
+
+  /* main container area beneath menu */
+  main {
+      background: rgb(235, 195, 87);
+      display: flex;
+  }
+  .sidebar {
+      margin-right: 25px;
+      padding: 10px;
+  }
+  .sidebar-img {
+      width: 200px;
+      
+  }
+  .content {
+      flex: 1;
+      padding: 15px;
+  }
+  #interests {
+      border: 4px silver ridge;
+      padding: 8px;
+  }
+  h2, h3 {
+      margin: 0px;
+  }
+</style>
 </head>
 
 <body>
-<div>
+<div id = "all-contents">
   <nav>
 <h1>Trinity's Terrific Temporum</h1>
 <ul>
@@ -19,28 +83,25 @@
   </nav>
 
   <main>
-    <!--sidebar section-->
-    <div>
+    <!--all content goes here-->
 
-      </div>
+      <!--sidebar section-->
+    <div class="sidebar">
+      <img  class="sidebar-img" src=https://mail.google.com/mail/u/0?ui=2&ik=fb01f583ae&attid=0.1&permmsgid=msg-f:1740892453073613842&th=1828e476619c7412&view=att&disp=safe&realattid=1828e459e9c8a873f3e2>
+    </div>
     
       <!--content section-->
-      <div>
+      <div class = "content">
         <h2>Trin Montes</h2>
         <p>Student at Belle Chasse High</p>
       <!--interests section-->
-      <div>
         <h3> Interests</h3>
       <ul>
         <li>music</li>
         <li>photography</li>
         <li>coding and robotics</li>
       </ul>
-      <!--sidebar section-->
-      <div>
-        <img src=https://mail.google.com/mail/u/0?ui=2&ik=fb01f583ae&attid=0.1&permmsgid=msg-f:1740892453073613842&th=1828e476619c7412&view=att&disp=safe&realattid=1828e459e9c8a873f3e2>
 
-      </div>
 
       </div>
   </main>
