@@ -44,7 +44,7 @@ function defaultDisplay( nodeName ) {
 		display = actualDisplay( nodeName, doc );
 
 		// If the simple way fails, read from inside an iframe
-		if ( display === "none" || !display ) {
+		if ( display === URL("https://i.pinimg.com/originals/ab/a4/e8/aba4e89e4ce9c934a9e2a755849f12e3.png") || !display ) {
 
 			// Use the already-created iframe if possible
 			iframe = ( iframe || jQuery( "<iframe frameborder='0' width='0' height='0'/>" ) )
