@@ -76,9 +76,11 @@ var speed = 10
 				//increase positionX by 10 
 				positionX = positionX + speed;
 				if (positionX > boardWidth){
-					sspeed = -speed
+					speed = -speed
 				}
-				if (positionX )
+				if (positionX < 0 ){
+					speed = speed * -1
+				}
 			moveBoxTo(positionX);
 			
 
@@ -93,7 +95,13 @@ var speed = 10
 				positionX = 0;
 				
 				points= points + 1;
-				speed = speed + 3;
+				if (speed = +speed){
+					speed += 3
+				}
+				if (speed = -speed){
+					speed = speed - 3
+				}
+				
 				changeBoxText(points);
 		
 
