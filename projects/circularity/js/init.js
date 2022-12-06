@@ -49,11 +49,10 @@ drawCircle();
         */
         function update() {
             // TODO 4 : Update the circle's position //
-
+                //deleted because loops make things easy
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           
-
+           //EZ LOOPS!!!!!!
             // TODO 9 : Iterate over the array
            
             
@@ -73,7 +72,12 @@ drawCircle();
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
             
-
+            for (var i = 0; i < circles.length; i++) {
+                var eachircle = circles[i];
+                physikz.updatePosition(eachCircle);
+                game.checkCirclePosition(eachCircle);
+                // code to repeat using eachValue
+             }
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
         }
