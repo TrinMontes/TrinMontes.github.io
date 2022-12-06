@@ -73,7 +73,7 @@ drawCircle();
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
             
             for (var i = 0; i < circles.length; i++) {
-                var eachircle = circles[i];
+                var eachCircle = circles[i];
                 physikz.updatePosition(eachCircle);
                 game.checkCirclePosition(eachCircle);
                 // code to repeat using eachValue
